@@ -1,91 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Food, LLC</title>
 	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 	
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<title>Module 3 Solution</title>
 </head>
 <body>
-	<header>
-		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-				<h1 id="company-name"class="navbar-brand">Food, LLC</h1>
-					<!-- <div class="navbar-brand pull-left">
-						<h1>Food, LLC</h1>
-					</div> -->	
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-      				</button>
-				</div> <!-- NavBar Header -->
+    <header class="nav-header">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <p class="nav-brand">Food, LLC</p>
+          </div>
 
-				<div id="collapsable-nav" class="collapse navbar-collapse">
-					<ul id="nav-list" class="nav navbar-nav navbar-right hidden visible-xs">
-						<li>
-							<a href="#chicken">
-							<!-- <span class="glyphicons glyphicons-fast-food"></span> -->
-								<span class="glyphicon glyphicon-cutlery"></span>
-								<!-- <br class="hidden-xs"> -->
-								Chicken
-							</a>
-						</li>
-						<li>
-							<a href="#beef">
-								<span class="glyphicon glyphicon-cutlery"></span>
-								<br class="hidden-xs">
-								Beef
-							</a>
-						</li>
-						<li>
-							<a href="#sushi">
-								<span class="glyphicon glyphicon-cutlery"></span>
-								<br class="hidden-xs">
-								Sushi
-							</a>
-						</li>
-					</ul>
-				</div> <!-- .collapse .navbar-collapse -->
-			 </div> <!-- Container -->
-		</nav>
-	</header>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#chicken-div"><p class="item">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center beef-item">
+              <a href="#beef-div"><p class="item">Beef</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center sushi-item">
+              <a href="#sushi-div"><p class="item">Sushi</p></a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+  	</header>
 
-			<div id="main-content" class="container">
-				<div class="row">
-					<h2 id="top" class="text-center">Our Menu</h2>
-				
-						<div id="chicken" class="col-lg-4 col-md-6 col-xs-12 col-sm-12 section-background-color">
-							<h3 class="text-center">Chicken</h3>
-							<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.</p>
-						</div>
-				
-					<div id="beef" class="col-lg-4 col-md-6 col-xs-12 col-sm-12 section-background-color">
-						<h3 class="text-center">Beef</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.</p>	
-					</div>	
-					
-					<div id="sushi" class="col-lg-4 col-md-12 col-xs-12 col-sm-12 section-background-color">
-						<h3 class="text-center">Sushi</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.Molestiae, voluptate, necessitatibus? Corporis dolorum explicabo debitis, magnam deleniti eum porro iste praesentium maxime aperiam earum quasi obcaecati dignissimos libero, ipsum saepe.</p>
-					</div>	
-					<a href="#top" class="visible-xs visible-md visible-sm text-center internal-link">Back to top</a>
-				</div>
-			 </div> <!-- end main-content -->
+	<h1 class="text-center">Our Menu</h1>
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<div class="row container container-fluid">
+	<div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div">
+		<section>
+		<div id="chicken">
+			Chicken
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+		</p>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
+		<section>
+		<div id="beef">
+			Beef
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+		</p>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
+		<section>
+		<div id="sushi">
+			Sushi
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+		</p>
+		</section>
+	</div>
+	</div>
 
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
 </body>
 </html>
